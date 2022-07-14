@@ -1,0 +1,41 @@
+.meu-time{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.meu-time h1{
+    margin-bottom: 14px;
+}
+
+.meu-time span{
+    font-size: 18px;
+}
+.meu-time ul{
+    width: 720px;
+}
+
+.meu-time ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+.meu-time div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meu-time div a {
+    text-decoration: none;
+    color: #000;
+    /* margin-right: 15px; */
+    padding: 1.5em;
+    transition: .5s all;
+}
+.meu-time div a:hover {
+    transform: scale(1.1);
+    transition: .5s all;
+}

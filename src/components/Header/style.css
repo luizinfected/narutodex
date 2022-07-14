@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(23, 59, 118);
+    background-color: #232226;
+    /* filter: drop-shadow(0 0 20px #121212) */
+
+}
+header a{
+    text-decoration: none;
+    margin: 1em;
+    color: #fff;
+}
+header h1{
+    color: rgb(255, 174, 0);
+    filter: drop-shadow(0 0 20px #121212)
+
+}
+header h1 span{
+    color: #fff;
+    filter: drop-shadow(0 0 20px #121212)
+
+}

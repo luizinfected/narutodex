@@ -1,0 +1,104 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 350px;
+    /* height: auto; */
+    margin: 1em;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    border: 1px solid rgb(23, 59, 118);
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: .2em;
+    /* background-color: #fcfcfc; */
+    /* background-color: rgb(23, 59, 118); */
+    background-color: #232226;
+    transition: .5s all;
+    filter: drop-shadow(0 0 10px #121212)
+
+}
+.card:hover{
+    transform: scale(1.02);
+    transition: .5s all;
+}
+.card img{
+    width: 70%;
+    height: 220px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: .5s all;
+}
+.card img:hover{
+    transform: scale(1.15);
+    transition: .5s all;
+}
+.card h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(23, 59, 118);
+    color: #fff;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.info p{
+    font-size: 1.1em;
+    padding: .5em;
+    background-color: rgb(23, 59, 118);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    flex-wrap: wrap;
+    /* margin-top: 20px; */
+    /* height: 100%; */
+    /* align-items: flex-end; */
+    padding-bottom: 1em;
+
+}
+.btn button{
+   margin: 1em;
+   padding: 2em;
+   border: none;
+   /* border-radius: 5px; */
+   border-radius: 10px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   transition: .5s all;
+}
+.Sobre{
+    background-color: none  ;
+}
+.btn button:hover{
+    transform: scale(1.1);
+    transition: .5s all;
+}
+.AddTime{
+    background-color: #77cca4;
+    color: #fff;
+}
+.RemoveTime{
+    background-color: #b22148;
+    color: #fff;
+}
