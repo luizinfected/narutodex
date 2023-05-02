@@ -41,7 +41,7 @@ function Home() {
                     return (
                         <div className="card" key={ninja.id}>    
                                 <h1>{ninja.name}</h1>
-                                <img src={ninja.images[0]}/>
+                                <img src={ninja.images[0]} alt={ninja.name}/>
                                 {/* <div className="info">
                                 <p><strong>Sexo: </strong><span>{ninja.info.Sexo}</span></p>
                                 <p><strong>Aniversário: </strong><span>{ninja.info.Aniversário}</span></p>
